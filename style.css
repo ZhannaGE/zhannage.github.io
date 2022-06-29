@@ -1,0 +1,329 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body {
+    overflow: scroll;
+    font-family: 'TT Lakes';
+}
+li{
+    text-decoration: none;
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+/* Заголовок */
+
+/* Заголовок-конец */
+
+/* Главное меню */
+.content{
+    background-color: #f8f8f8;
+}
+h1{
+    font-size: 28px;
+    line-height: 40px;
+    letter-spacing: -0.6000000238418579px;
+    text-align: left;
+    padding-left: 16px;
+    padding-bottom: 24px;
+}
+h1::before{
+    border-left: 4px solid #41f6d7;
+    border-radius: 5px;
+    height: 40px;
+    content: "";
+    left: 0;
+    position: absolute;
+}
+.content-menu__item{
+    display: flex;
+    padding-bottom: 20px;
+    justify-content: space-around;
+    color:#7E7E82;
+    align-items: center;
+    height:40px;
+}
+.content-menu__item li:first-child{
+    box-sizing: border-box;
+    border: 1px solid #b8ffec;
+    background-color: white;
+    border-radius: 6px;
+    width: 246px;
+    height: 40px;
+    text-align: center;
+    size: 16px;
+    line-height: 24px;
+    padding-top: 7px;
+    letter-spacing: -0.2px;
+}
+.content-about__text{
+  margin-bottom: 0;
+    font-size: 14px;
+    line-height: 18px;
+}
+.content-about__text_continuation{
+   font-size: 16px;
+    padding-left: 5px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.content-about__text_continuation img{
+    padding-right: 5px;
+}
+/* Главное меню-конец */
+
+@media (width: 320px)
+{
+body{
+    width: 360px;
+    height: 597px;
+}
+    .header{
+        display: flex;
+        height: 88px;
+        width: 100%;
+        justify-content: space-around;
+    }
+    .header::after{
+        content: "";
+        border: 1px solid #d9fff5;
+        width: 100%;
+        position: absolute;
+        margin-top: 88px;
+    }
+    .header-logo{
+        margin-top: 19px;
+        margin-left: -20px;
+
+    }
+    .header-menu{
+        padding-top: 28px;
+    }
+    .header-menu__icon{
+        display: flex;
+    }
+    .header-menu__icon li{
+        width: 40px;
+        height: 40px;
+    }
+    .header-menu__icon-1,
+    .header-menu__icon-2,
+    .header-menu__icon-3{
+        padding-right: 15px;
+    }
+    .header-menu__icon-4,
+    .header-menu__icon-5 {
+        padding-left:15px;
+    }
+    .header-logo::after{
+        content: "";
+        border-left: 2px solid #eaeaea;
+        height: 32px;
+        position: absolute;
+        margin-top: 10px;
+        margin-left: 15px;
+    }
+    .header-burger{
+        padding-left: 16px;
+        padding-right: 17px;
+        padding-top: 24px;
+    }
+    .header-menu__icon-1,
+    .header-menu__icon-2,
+    .header-menu__icon-3{
+    display: none;
+}
+    .header-menu__icon_active-text{
+        display: none;
+    }
+    .content{
+        min-height: 100vh;
+    }
+    .content-menu{
+        padding-top: 24px;
+    }
+    .content-menu__item-list_6{
+        display: none;
+    }
+    .content-menu ul li:not(:nth-child(1)) {
+        display: none;
+    }
+    .content-about__text{
+        padding-left: 16px;
+        padding-right: 16px;
+    }
+    .content-about__text_part-three,
+    .content-about__text_part-two{
+         display: none;
+     }
+    .content-about__image{
+        padding-top: 10px;
+        width: 320px;
+        height: 190px;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 1199px)
+{
+    body{
+        height: 504px;
+    }
+    .header{
+        display: flex;
+        height: 88px;
+        width: 100%;
+        justify-content: space-around;
+    }
+    .header::after{
+        content: "";
+        border: 1px solid #d9fff5;
+        width: 100%;
+        position: absolute;
+        margin-top: 88px;
+    }
+    .header-logo{
+        margin-top: 19px;
+        margin-left: -20px;
+
+    }
+    .header-menu{
+        padding-top: 28px;
+    }
+    .header-menu__icon{
+        display: flex;
+    }
+    .header-menu__icon li{
+        width: 40px;
+        height: 40px;
+    }
+    .header-menu__icon-1,
+    .header-menu__icon-2,
+    .header-menu__icon-3{
+        padding-right: 15px;
+    }
+    .header-menu__icon-4,
+    .header-menu__icon-5 {
+        padding-left:15px;
+    }
+    .header-burger {
+        padding-right: 17px;
+        padding-top: 24px;
+    }
+    .header-burger::after{
+        content: "";
+        border-left: 2px solid #eaeaea;
+        height: 32px;
+        position: absolute;
+        margin-top: 5px;
+        margin-left: 15px;
+    }
+
+    .header-menu__icon-3::after{
+         content: "";
+         border-left: 2px solid #eaeaea;
+         height: 32px;
+         position: absolute;
+         margin-left: 10px;
+        margin-top: 5px;
+     }
+    .header-menu__icon_active-text{
+        display: none;
+    }
+    .content-menu{
+        width: 769px;
+        padding-top: 28px;
+    }
+    .content-menu__item li:nth-child(4) {
+         display: none;
+     }
+    .content-menu__item-list_6{
+          display: none;
+      }
+    .content-about{
+        display: flex;
+    }
+    .content-about__text{
+        padding-left: 24px;
+        padding-right: 40px;
+        width: 312px;
+        height: 120px;
+        line-height: 20px;
+    }
+
+    .content-about__text_part-three{
+          display: none;
+      }
+
+    .content-about__image img{
+         width: 360px;
+         height: 240px;
+        border-radius: 6px;
+     }
+
+}
+
+@media  (min-width: 1120px)
+{
+    .header{
+       background: #f8f8f8;
+    }
+    .header-burger,
+    .header-logo{
+        display: none;
+    }
+    .header-menu__icon-1,
+    .header-menu__icon-2,
+    .header-menu__icon-3{
+        display: none;
+    }
+    .header-menu__icon{
+        display: flex;
+        justify-content: flex-end;
+        margin-right: 70px;
+        padding-top: 42px;
+    }
+    .header-menu__icon-4,
+    .header-menu__icon-5{
+        display: flex;
+       flex-direction: row-reverse;
+    }
+    .header-menu__icon_active-text{
+        padding-top: 9px;
+        padding-right: 8px;
+        padding-left: 32px;
+    }
+    .content{
+        height: 100vh;
+    }
+
+    .content-menu__item{
+        display: flex;
+        flex-wrap: wrap;
+        align-content: flex-start;
+        height: 100%;
+
+    }
+    .content-menu__item-list_6{
+        width: 90%;
+        align-self: flex-start;
+         padding-top: 15px;
+    }
+    .content-about{
+         display: flex;
+         justify-content: space-around;
+         padding-top: 40px;
+     }
+    .content-about__text{
+        width: 490px;
+        line-height: 20px;
+
+    }
+    .content-about__image img{
+         width: 532px;
+         height: 370px;
+        border-radius: 6px;
+     }
+
+}
