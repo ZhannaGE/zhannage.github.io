@@ -1,37 +1,69 @@
-## Welcome to GitHub Pages
+<!doctype html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="fonts/stylesheet.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1 ">
+    <title>Document</title>
+</head>
+<body>
 
-You can use the [editor on GitHub](https://github.com/ZhannaGE/new_project/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
+<header class="header">
+    <div class="header-burger"> <img src="img/header/burger.png" alt="меню"> </div>
+    <div class="header-logo"> <img src="img/header/logo.png" alt="логотип"> </div>
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+    <nav class="header-menu">
+               <ul class="header-menu__icon">
+           <li class="header-menu__icon-1">
+               <img src="img/header/call.png" alt="иконка телефон">
+           </li>
+            <li class="header-menu__icon-2">
+                <img src="img/header/chat.png" alt=" иконка чат">
+            </li>
+            <li class="header-menu__icon-3">
+                <img src="img/header/profile.png" alt=" иконка профиль">
+            </li>
+            <li  class="header-menu__icon-4">
+        <img src="img/header/checkstatus.png" alt="иконка оставить заявку">
+   <p class="header-menu__icon_active-text">Оставить заявку</p>
+            </li>
+                   <li class="header-menu__icon-5">
+     <img src="img/header/repair.png" alt="иконка ремонт">
+           <p class="header-menu__icon_active-text"> Статус ремонта</p>
+            </li>
+               </ul>
+           </nav>
+</header>
 
-### Markdown
+<main class="content">
+    <section class="content-menu">
+    <h1> Услуги и сервисы</h1>
+    <ul class="content-menu__item">
+        <li class="content-menu__item-list_1">Ремонтируемые устройства</li>
+        <li class="content-menu__item-list_2">Дополнительные услуги</li>
+        <li class="content-menu__item-list_3">Цены на услуги</li>
+        <li class="content-menu__item-list_4">Адреса сервисных центров</li>
+        <li class="content-menu__item-list_5">Специальные цены</li>
+        <li class="content-menu__item-list_6">Отзывы</li>
+    </ul>
+    </section>
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+ <section class="content-about">
+    <div class="content-about__text">
+       <p class="content-about__text_part-one">Мы являемся авторизованным сервисным центром по ремонту техники Dell. Только у нас вы можете отремонтировать свой ноутбук Dell с официальной гарантией производителя.</p>
+<br>
+        <p class="content-about__text_part-two"> Мы успешно работаем с 1992 года и заслужили репутацию надежного партнера
+        <span class="content-about__text_part-three">,что подтверждает большое количество постоянных клиентов. Мы гордимся тем, что к нам обращаются по рекомендациям и, в свою очередь, советуют нас родным и близким.</span></p>
+        <p class="content-about__text_continuation"> <img  src="img/icon.png" alt="указатель вниз">
+        Читать далее</p>
+     </div>
+     <div class="content-about__image"> <img alt="фото логотипа компании" src="img/bg.png"></div>
 
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [Basic writing and formatting syntax](https://docs.github.com/en/github/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/ZhannaGE/new_project/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
+    </section>
+  </main>
+</body>
+</html>
