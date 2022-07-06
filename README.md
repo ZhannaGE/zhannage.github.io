@@ -29,6 +29,7 @@
             </li>
             <li  class="header-menu__icon-4">
         <img src="img/header/checkstatus.png" alt="иконка оставить заявку">
+
    <p class="header-menu__icon_active-text">Оставить заявку</p>
             </li>
                    <li class="header-menu__icon-5">
@@ -64,6 +65,7 @@
      <div class="content-about__image"> <img alt="фото логотипа компании" src="img/bg.png"></div>
 
     </section>
+
   </main>
 </body>
 </html>
