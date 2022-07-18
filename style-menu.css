@@ -1,0 +1,110 @@
+@font-face {
+    font-family: 'Regular';
+    src: url("TTLakes-Regular.ttf");
+}
+
+@font-face {
+    font-family: 'Bold';
+    src: url("TTLakes-Bold.ttf");
+}
+
+* {
+    text-decoration: none;
+    list-style: none;
+    color: black;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+
+    font-family: 'Regular', serif;
+    font-size: 16px;
+
+}
+
+.aside {
+    width: 320px;
+    margin-left: 24px;
+}
+
+button {
+    border: none;
+    cursor: pointer;
+    background-color: white;
+}
+
+.header {
+    height: 106px;
+    padding-top: 10px;
+    padding-right: 10px;
+}
+
+button:hover {
+    transform: scale(90%);
+    opacity: 0.7;
+}
+
+.header__icon_button-burger {
+    margin-right: 17px;
+
+}
+
+.header__icon_logo {
+    padding-right: 78px;
+}
+
+.header__icon_button-search {
+    border-radius: 100%;
+
+}
+
+.nav__menu li {
+    padding-bottom: 32px;
+    line-height: 24px;
+}
+
+.nav__menu a:hover {
+    color: #7E7E82;
+}
+
+.nav__menu li:first-child {
+    margin-left: -24px;
+    height: 32px;
+
+}
+
+.nav__menu li:first-child::before {
+    border-left: 4px solid #41f6d7;
+    border-radius: 5px;
+    height: 32px;
+    content: "";
+    margin-right: 20px;
+
+}
+
+.footer-icon a {
+    padding-right: 16px;
+}
+
+.footer-icon img:hover {
+    transform: scale(90%);
+    opacity: 0.7;
+}
+
+.footer-info {
+    padding-top: 16px;
+    padding-bottom: 32px;
+}
+
+.footer-info__phone {
+    padding-top: 12px;
+    padding-bottom: 40px;
+    font-size: 24px;
+    font-family: 'Bold', serif;
+    line-height: 32px;
+}
+
+.footer-info__language span:hover {
+    color: #7E7E82;
+}
